@@ -446,3 +446,56 @@ li a {
     font-weight: 200;
     
 }
+
+/*port Mobile*/
+
+@media (width < 700px ) {
+
+    /* Cabeçalho */ 
+
+    .lista a {
+        display: none;
+    }
+
+
+     .contInformacoes {
+        display: block;
+     }
+
+    /* Corpo */
+
+    .containerCards {
+        display: block;
+    }
+
+    .coluna1,
+    .coluna2,
+    .coluna3 {
+        display: block;
+    }
+
+    .divPromocao {
+        display: block;
+    }
+
+
+
+    /* Rodapé */
+
+    .contactPanel {
+        width: 80vw;
+    }
+
+    .contactPanel input {
+        width: 83vw;
+    }
+
+    .pai {
+        display: block;
+    }
+
+    .Newsletter input {
+        width: 80vw;
+    }
+
+}
